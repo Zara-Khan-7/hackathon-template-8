@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex flex-wrap md:flex-nowrap md:text-center text-center justify-center">
             <div className="w-full md:w-64 flex-shrink-0 mx-auto mb-6 md:mb-0">
               <a className="flex title-font font-medium items-center justify-center text-gray-900">
-                <Image src="/logo.png" alt="logo" width={50} height={50} className="text-emerald-500 h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10" />
+                <Image src="/Logo.png" alt="logo" width={50} height={50} className="text-emerald-500 h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10" />
                 <span className="ml-3 text-xl">Comporty</span>
               </a>
               <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>

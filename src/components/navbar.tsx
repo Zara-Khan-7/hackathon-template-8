@@ -26,7 +26,7 @@ export default function Navbar() {
       {/* Second Section */}
       <div className="flex justify-between items-center px-12 sm:px-16 md:px-28 lg:px-40 bg-slate-50 text-black py-2 flex-wrap">
         <div className="flex items-center gap-4">
-        <Image src="/logo.png" alt="logo" width={50} height={50} className="text-emerald-500 h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10" />
+        <Image src="/Logo.png" alt="logo" width={50} height={50} className="text-emerald-500 h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10" />
           <h1 className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold">
             Comforty
           </h1>
