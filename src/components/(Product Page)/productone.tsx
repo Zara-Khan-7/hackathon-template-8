@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { FaCartShopping } from "react-icons/fa6";
+import { IoCartOutline } from "react-icons/io5";
 
 export default function OurProductPage() {
   const FeatureImage = [
@@ -16,29 +16,6 @@ export default function OurProductPage() {
 
   return (
     <div className="px-4 sm:px-8 md:px-52 py-8 mt-8" >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div>
         <h1 className="text-2xl  md:text-3xl font-bold mb-8 pl-4 ">Feautured Products</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
@@ -61,7 +38,7 @@ export default function OurProductPage() {
                   <span className="text-black text-lg font-bold">$20</span>
                 </div>
             <div className="flex items-center" >
-                  <FaCartShopping className="w-6 h-6 sm:w-8 sm:h-8 text-emerald-500 cursor-pointer transition-transform duration-300 hover:scale-110" />
+                  <IoCartOutline className="w-6 h-6 sm:w-8 sm:h-8 text-slate-800 cursor-pointer transition-transform duration-300 hover:scale-110" />
                 </div>
               </div></Link> 
             </div>

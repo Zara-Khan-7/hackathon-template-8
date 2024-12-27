@@ -7,12 +7,9 @@ import React from 'react'
 export default function page() {
   return (
     <div>
-      
-
-
-<Card/>
-   <OurProductPage/>
-   <Footer/>
+      <Card/>
+      <OurProductPage/>
+      <Footer/>
     </div>
   )
 }
